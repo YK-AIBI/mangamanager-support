@@ -12,12 +12,10 @@ Verantwortlich im Sinne der DSGVO: Yuki Koga, Japan. Kontakt: https://github.com
 - Die App benötigt **kein Konto** und erhebt keine Namen, E-Mail-Adressen oder Standortdaten.
 - Die App enthält **keine Werbung, kein Tracking und keine Analyse-Tools**.
 
-## 3. Abruf von Buch- und Cover-Informationen
-Wenn du einen Titel suchst oder neue Bände abrufst, sendet die App den Suchbegriff (z. B. den Reihentitel bzw. eine ISBN) direkt an folgende Dienste. Dabei wird technisch bedingt deine IP-Adresse übermittelt:
-- **Deutsche Nationalbibliothek** (SRU-Schnittstelle, services.dnb.de) – Band- und Erscheinungsdaten. Datenschutz: https://www.dnb.de/datenschutz
-- **AniList** (graphql.anilist.co) – Reiheninformationen und Coverbilder. Datenschutz: https://anilist.co/terms
+## 3. Abruf von Buchinformationen
+Wenn du einen Titel suchst oder neue Bände abrufst, sendet die App den Suchbegriff (z. B. den Reihentitel) direkt an die **Deutsche Nationalbibliothek** (SRU-Schnittstelle, services.dnb.de), um Band- und Erscheinungsdaten zu laden. Dabei wird technisch bedingt deine IP-Adresse übermittelt. Datenschutz der DNB: https://www.dnb.de/datenschutz
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der von dir angeforderten Funktion).
+Weitere Dienste werden nicht verwendet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der von dir angeforderten Funktion).
 
 ## 4. Benachrichtigungen
 Erinnerungen an Erscheinungstermine werden lokal auf deinem Gerät geplant. Es werden keine Push-Server verwendet.
